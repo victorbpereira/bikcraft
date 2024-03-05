@@ -1,0 +1,6 @@
+:root {
+    --header-bg: #000000;
+    --grad-bt: linear-gradient(45deg, #ADFF00, #80BC00);
+    --txt-pequeno: #808080;
+    --grad-parceiros: linear-gradient(#1f1f1f, #000000);
+}
