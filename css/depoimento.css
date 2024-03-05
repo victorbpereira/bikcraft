@@ -1,0 +1,71 @@
+.depoimento-container > img {
+    width: 500px;
+    height: 500px;
+    justify-self: right;
+}
+
+.depoimento-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    margin: 100px 0px;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+
+#deco {
+    position: absolute;
+    font-weight: bolder;
+    font-size: 10rem;
+    line-height: 160px;
+    background-image: var(--grad-depoimento);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    left: 47%;
+}
+
+.depoimento-info {
+    max-width: 500px;
+    justify-self: left;
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.depoimento-info h1 {
+    font-size: 5rem;
+}
+
+.depoimento-info > p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 20px 0px;
+}
+
+.idade {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.local {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.local p {
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--txt-pequeno);
+}
+
+.local img {
+    width: 18px;
+}

@@ -14,6 +14,7 @@
 .container > img {
     width: 408px;
     height: 440px;
+    border-radius: 4px;
 }
 
 .container-info {
