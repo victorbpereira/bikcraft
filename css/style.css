@@ -1,4 +1,5 @@
 @import 'global.css';
+@import 'utilitarios.css';
 @import 'header.css';
 @import 'introducao.css';
 @import 'tecnologias.css';
@@ -7,3 +8,4 @@
 @import 'parceiros.css';
 @import 'footer.css';
 @import 'cores.css';
+@import 'responsividade.css';

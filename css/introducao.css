@@ -1,0 +1,30 @@
+.introducao img {
+    width: 500px;
+    height: 736;
+    justify-self: left;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 45px;
+    margin: 0px 30px;
+}
+
+.info-intro {
+    max-width: 600px;
+    justify-self: right;
+    align-self: center;
+}
+
+.info-intro h1 {
+    font-size: 4rem;
+}
+
+.info-intro p {
+    font-size: 1.2rem;
+    margin: 30px 0px;
+    line-height: 30px;
+    font-weight: 500;
+}

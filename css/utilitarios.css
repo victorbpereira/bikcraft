@@ -1,0 +1,13 @@
+.bt {
+    color: var(--cor-txt-bt);
+    background-image: var(--grad-bt);
+    width: max-content;
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.ponto {
+    color: var(--ponto);
+}

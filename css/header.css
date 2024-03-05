@@ -1,0 +1,21 @@
+header {
+    background-color: var(--header-bg);
+}
+
+.container-menus a {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.container-menus {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}

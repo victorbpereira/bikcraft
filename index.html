@@ -5,22 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>
-        <div>
-            <img src="marca/marca.svg" alt="">
-            <div>
+        <div class="menu">
+            <img class="marca" src="marca/marca.svg" alt="">
+            <div class="container-menus">
                 <a href="#">
-                    <div class="header-menu">Produtos</div>
+                    <div class="menu-produtos">Produtos</div>
                 </a>
                 <a href="#">
-                    <div class="header-menu">Contato</div>
+                    <div class="menu-contato">Contato</div>
                 </a>
             </div>
         </div>
     </header>
+
+    <div class="introducao">
+        <div class="info-intro">
+            <h1>Bicicletas elétricas<br>de alta precisão e<br>qualidade<span class="ponto">.</span></h1>
+            <p>Feitas sob medida para o cliente, explore o mundo na sua velocidade com a Bikcraft.</p>
+            <a href="#">
+                <div class="bt">SELECIONE A SUA</div>
+            </a>
+        </div>
+        <img src="imagens/bicicleta-intro.jpg" alt="">
+    </div>
+
+    <div class="tecnologias">
+        <p>TECNOLOGIAS</p>
+        <div class="container">
+            <img src="imagens/motor-eletrico.jpg" alt="">
+            <div class="container-info">
+                <div class="container-titulo">
+                    <h2>Motor Elétrico</h2>
+                    <img id="eletrico-ico" src="icones/tecnologias/eletrico.svg" alt="">
+                </div>
+                <p>Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+            </div>
+        </div>
+
+        <div class="container" id="ele-container2">
+            <div class="container-titulo">
+                <h2>Motor Elétrico</h2>
+                <img id="eletrico-ico" src="icones/tecnologias/eletrico.svg" alt="">
+            </div>
+            <img src="imagens/motor-eletrico.jpg" alt="">
+            <div class="container-info">
+                <p>Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+            </div>
+            
+        </div>
+
+        <div class="container">
+            <img src="imagens/rastreador.jpg" alt="">
+            <div class="container-info">
+                <div class="container-titulo">
+                    <h2>Rastreador</h2>
+                    <img id="rastreador-ico" src="icones/tecnologias/rastreador.svg" alt="">
+                </div>
+                <p>Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
+            </div>
+        </div>
+
+        <div class="container" id="ras-container2">
+            <div class="container-titulo">
+                <h2>Rastreador</h2>
+                <img id="rastreador-ico" src="icones/tecnologias/rastreador.svg" alt="">
+            </div>
+            <img src="imagens/rastreador.jpg" alt="">
+            <div class="container-info">
+                <p>Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
