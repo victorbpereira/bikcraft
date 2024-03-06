@@ -323,4 +323,25 @@
     .parceiro-container img {
         width: calc(14%);
     }
+
+    .container-contato p {
+        font-size: .7rem;
+    }
+
+    .container-contato img {
+        width: 12px;
+    }
+
+    #container-contato h3 {
+        font-size: .9rem;
+    }
+
+    #container-contato {
+        gap: 10px;
+    }
+
+    .footer {
+        gap: 20px;
+    }
+    
 }
