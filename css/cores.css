@@ -2,8 +2,9 @@
     --header-bg: #000000;
     --grad-bt: linear-gradient(45deg, #ADFF00, #80BC00);
     --txt-pequeno: #808080;
-    --grad-parceiros: linear-gradient(#1f1f1f, #000000);
     --grad-depoimento: linear-gradient(to right, #14141462, #08080891);
+    --grad-parceirosmeio: linear-gradient(to left, #181818, #000000);
+    --grad-parceiros: linear-gradient(to right, #181818, #000000);
     --cor-txt-bt: #233300;
     --ponto: #97dd00;
 }

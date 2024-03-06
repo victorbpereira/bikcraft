@@ -1,0 +1,33 @@
+.parceiros > p {
+    color: var(--txt-pequeno);
+    font-weight: bold;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 100px 0px 10px 0px;
+}
+
+.parceiros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.parceiro-container {
+    background-image: var(--grad-parceiros);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.parceiro-container img {
+    width: calc(8%);
+}
+
+#meio {
+    background-image: var(--grad-parceirosmeio);
+}

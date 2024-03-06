@@ -15,7 +15,7 @@
 .info-intro {
     max-width: 600px;
     justify-self: right;
-    align-self: center;
+    margin-top: 70px;
 }
 
 .info-intro h1 {

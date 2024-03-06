@@ -164,6 +164,14 @@
         height: 430px;
         border-radius: 4px;
     }
+
+    .parceiros > p {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .parceiro-container {
+        gap: 70px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -190,6 +198,7 @@
     .info-intro {
         max-width: 450px;
         justify-self: center;
+        margin-top: 20px;
     }
 
     .info-intro h1 {
@@ -226,6 +235,10 @@
     .depoimento-info > p {
         font-size: .75rem;
         line-height: 20px;
+    }
+
+    .parceiro-container img {
+        width: calc(12%);
     }
 }
 
@@ -279,6 +292,9 @@
         height: 360px;
     }
 
+    #container-marca p {
+        font-size: .7rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -302,5 +318,9 @@
 
     .container-menus {
         gap: 30px;
+    }
+
+    .parceiro-container img {
+        width: calc(14%);
     }
 }
