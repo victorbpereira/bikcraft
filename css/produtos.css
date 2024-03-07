@@ -28,11 +28,12 @@
     background-color: #ADFF00;
     position: absolute;
     top: 27px;
+    transition: .5s;
 }
 
 .container-biks:hover > p::before {
     width: 30%;
-    transition: 1s;
+    transition: .5s;
 }
 
 .produtos > p {
@@ -68,23 +69,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
 
 .container-biks:hover h2 {
     display: block;
     font-size: 1rem;
     opacity: 100%;
-    transition: 1s;
+    transition: .5s;
 }
 
 .container-biks:hover h1 {
     display: none;
-    transition: 1s;
+    transition: .5s;
 }
 
 .container-biks:hover .preco {
     width: 90px;
-    transition: 1s;
+    transition: .5s;
 }
 
 .preco::before {
@@ -106,4 +108,8 @@
     color: white;
     font-size: 0px;
     opacity: 0%;
+}
+
+.produtos {
+    scroll-margin: -80px;
 }
